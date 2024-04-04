@@ -1,0 +1,20 @@
+.productcard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.productcard img {
+    width: 300px;
+    height: 400px;
+}
+
+.productcard p:first-child {
+    width: 269px;
+    height: 22px;
+}
+
+.productcard p:last-child {
+    width: 251px;
+    height: 17px;
+}

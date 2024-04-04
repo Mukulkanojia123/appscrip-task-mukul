@@ -1,0 +1,6 @@
+.maincontainer > div {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    padding: 5px
+}
