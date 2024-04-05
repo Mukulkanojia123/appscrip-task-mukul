@@ -1,15 +1,20 @@
 import React, { useState, useEffect } from 'react'
 import FilterBar from './FilterBar'
 import MainContainer from './MainContainer'
+import SideBar from './SideBar'
 
 const Body = () => {
 
 
 
     return (
-        <div>
+        <div className='body'>
             <FilterBar />
-            <MainContainer />
+            <div className='sidebarandconatainer'>
+                <SideBar />
+                <MainContainer />
+            </div>
+
         </div>
     )
 }
