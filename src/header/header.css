@@ -46,4 +46,21 @@
    
     text-align: center;
 }
+.NavbarTwo > div:nth-child(2) {
+    display: none;
+  
+ }
 
+@media only screen and (max-width: 600px) {
+    .NavbarTwo > div:first-child {
+        display: none; /* Hide the first div containing spans */
+    }
+     .NavbarTwo > div:nth-child(2) {
+        display: block;
+        border-bottom : 1px solid gray;
+     }
+     .NavbarTwo > div:nth-child(2) > *{
+        padding-left: 4px;
+        padding-bottom: 2px;
+     }
+}

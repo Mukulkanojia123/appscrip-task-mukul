@@ -21,11 +21,13 @@
 
 /* FILTERBAR CSS */
 .container {
+    width: 100%;
     display: flex;
     justify-content: space-between; 
     align-items: center; 
     padding : 5px;
 }
+
 
 .left-items {
     display: flex; 
@@ -42,6 +44,12 @@
 
 .right-item {
     margin-left: auto; 
+}
+.right-item:hover {
+    color: blue;
+}
+.left-items:hover{
+    color:blue;
 }
 
 /* SIDEBAR CSS */
@@ -74,16 +82,35 @@
     flex-direction: column;
     padding: 2px;
 }
-
+/* RECOMMENDED LIST */
 .recommendedList{
     position: fixed;
    z-index: 1000;
     top: 325px;
     right: 50px;
     border-radius: 12px;
+    background-color: white;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 .recommendedList > ul > *{
     list-style-type: none;
    padding: 4px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .recommendedList{
+       background-color: white;
+        top: 200px;
+        right: 10px;
+        border-radius: 12px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .left-items > div:first-child {
+        display:none;
+    }
+    .container{
+        border-bottom: 1px solid gray;
+    }
 }

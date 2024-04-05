@@ -10,7 +10,11 @@ const NavTwo = () => {
                 <span>ABOUT</span>
                 <span>CONTACT US</span>
             </div>
+            <div>
+                <span>HOME</span>
+                <span>SHOP</span>
 
+            </div>
             <div>
 
                 <h1>DISCOVER OUR PRODUCTS</h1>
