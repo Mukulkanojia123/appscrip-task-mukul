@@ -10,8 +10,8 @@
     border-bottom: 2px solid white;
 }
 .footer-f input[type='text'] {
-    padding: 4px;
-    
+    padding: 4px ;
+    margin-bottom: 5px;
 }
 
 .footer-f button {
@@ -23,25 +23,18 @@
     border-radius: 2px;
    
 }
+.footer-f button:hover {
+  
+  color: black;
+  border: 1px solid gray;
+  background-color: rgb(233, 233, 37);
+  border-radius: 3px;
+ 
+}
 
 .footer-s{
     display: flex;
+    flex-wrap: wrap; 
     justify-content: space-evenly;
 }
 
-/* .footer-s > div:first-child ul li {
-    list-style-type: none;
-  }
-  
-  .footer-s > div:nth-child(2) ul li {
-    list-style-type: none;
-
-  }
-
-  .footer-s > div:first-child h4 {
-    margin-left: 5px;
-  }
-  
-  .footer-s > div:nth-child(2) h4 {
-    margin-left: 5px;
-  } */
